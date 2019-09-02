@@ -1,7 +1,7 @@
 #!/bin/bash
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/list > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/versao -O /bin/versao > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/licence -O /usr/lib/licence > /dev/null 2>&1
+wget https://raw.githubusercontent.com/giovanifaustino/script/master/Install/list > /dev/null 2>&1
+wget https://raw.githubusercontent.com/giovanifaustino/script/master/versao -O /bin/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/giovanifaustino/script/master/Install/licence -O /usr/lib/licence > /dev/null 2>&1
 clear
 [[ "$EUID" -ne 0 ]] && echo -e "\033[1;33mDesculpe, \033[1;33mvocê precisa executar como root\033[0m" && rm -rf $HOME/Plus > /dev/null 2>&1 && return 1
 cd $HOME
