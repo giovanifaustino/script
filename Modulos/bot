@@ -778,7 +778,7 @@ payload_vivo ()
 {
 	local pay
     pay='Payload vivo\n\n'
-    pay+='`GET http://i.vivo.ddivulga.com/i/gp HTTP/1.1[crlf][crlf][split]CONNECT [host_port][delay_split][crlf]`\n'
+    pay+='` PUT [host_port] [protocol][crlf]Host: www.tidal.com.br[crlf]`\n'
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
     --text "$(echo -e $pay)" \
     --parse_mode markdown
@@ -804,7 +804,7 @@ msg_bem_vindo()
 	local msg
     msg="🗣 Ola <b>${message_from_first_name[$id]}</b> Seja bem-vindo(a)\n"
     msg+="Para obter informacoes execute /ajuda\n\n"
-    msg+="by teamilluminati"
+    msg+="by universomagnata"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
 	--text "$(echo -e $msg)" \
 	--parse_mode html
