@@ -1,6 +1,6 @@
 ﻿# SSHPLUS-MANAGER-FREE
 
-![logo](hhttps://github.com/giovanifaustino/script/blob/master/SSHPLUS_MANAGER.jpg)
+![logo](https://raw.githubusercontent.com/giovanifaustino/script/master/sshplus.png)
 
 Manager Script
 
