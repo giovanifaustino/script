@@ -1,7 +1,7 @@
 #!/bin/bash
 wget https://raw.githubusercontent.com/giovanifaustino/script/master/Install/list > /dev/null 2>&1
-wget https://raw.githubusercontent.com/giovanifaustino/script/master/versao -O /bin/versao > /dev/null 2>&1
-wget https://raw.githubusercontent.com/giovanifaustino/script/master/Install/licence -O /usr/lib/licence > /dev/null 2>&1
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/versao -O /bin/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/licence -O /usr/lib/licence > /dev/null 2>&1
 clear
 [[ "$EUID" -ne 0 ]] && echo -e "\033[1;33mDesculpe, \033[1;33mvocê precisa executar como root\033[0m" && rm -rf $HOME/Plus > /dev/null 2>&1 && return 1
 cd $HOME
@@ -32,7 +32,7 @@ echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
 tput cnorm
 }
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "BEM VINDO AO UNIVERSO MAGNATA" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "BEM VINDO AO SSHPLUS MANAGER" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""
 echo -e "             \033[1;31mATENCAO! \033[1;33mESSE SCRIPT IRA...\033[0m"
@@ -46,7 +46,7 @@ echo -e "\033[1;32mDICA! \033[1;33mUsuarios do JUICESSH selecione o tema Dark\03
 echo -e "\033[1;33mnas configuracoes do aplicativo, para uma melhor\033[0m"
 echo -e "\033[1;33mvisualizacao...\033[0m"
 echo ""
-echo -e "\033[1;31m≠×≠×≠×≠×≠×≠×≠×≠×[\033[1;33m • \033[1;32mUNIVERSO MAGNATA\033[1;33m •\033[1;31m ]≠×≠×≠×≠×≠×≠×≠×≠×\033[0m"
+echo -e "\033[1;31m≠×≠×≠×≠×≠×≠×≠×≠×[\033[1;33m • \033[1;32mSSHPLUS MANAGER FREE\033[1;33m •\033[1;31m ]≠×≠×≠×≠×≠×≠×≠×≠×\033[0m"
 echo ""
 echo -ne "\033[1;36mGenerar As Key [N/S]:\033[1;37m "; read key
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
